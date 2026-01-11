@@ -1,0 +1,11 @@
+# Ignore all Windows executable files
+*.exe
+
+# Build folders
+/build/
+/bin/
+/output/
+
+# Object files
+*.o
+*.obj
