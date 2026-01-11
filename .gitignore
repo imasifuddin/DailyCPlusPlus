@@ -1,11 +1,47 @@
-# Ignore all Windows executable files
+# =========================
+# Compiled binaries
+# =========================
 *.exe
+*.out
+*.app
 
-# Build folders
-/build/
-/bin/
-/output/
+# =========================
+# Build / output directories
+# =========================
+build/
+bin/
+output/
+out/
+dist/
 
+# =========================
 # Object files
+# =========================
 *.o
 *.obj
+*.lo
+
+# =========================
+# CMake / Make
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.vcxproj*
+*.sln
+Debug/
+Release/
+
+# =========================
+# Temporary / OS files
+# =========================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
